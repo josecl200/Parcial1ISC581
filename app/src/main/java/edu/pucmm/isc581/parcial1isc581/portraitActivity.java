@@ -12,8 +12,8 @@ public class portraitActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_portrait);
+        this.setTitle(getIntent().getStringExtra("TITLE"));
         infoFragment infoFragment = (edu.pucmm.isc581.parcial1isc581.infoFragment) getSupportFragmentManager().findFragmentById(R.id.fragment3);
         infoFragment.newInfo(getIntent().getStringExtra("INFO"));
-
     }
 }
