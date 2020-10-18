@@ -8,15 +8,7 @@
         android:orientation="horizontal"
         tools:context=".MainActivity">
     <fragment
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent" android:name="edu.pucmm.isc581.parcial1isc581.listFragment"
-            android:layout_weight="1"
-            android:id="@+id/fragment"
-    />
-    <fragment
-            android:layout_width="0dp"
-            android:layout_height="match_parent" android:name="edu.pucmm.isc581.parcial1isc581.infoFragment"
-            android:layout_weight="0.5"
-            android:id="@+id/fragment2"
-    />
+            android:id="@+id/fragment" android:layout_weight="1"/>
 </LinearLayout>
